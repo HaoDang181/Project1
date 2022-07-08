@@ -5,7 +5,8 @@ public class Start1 {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(4);
         for(int i : list){
-            System.out.println(i);
+            if(i%2==0)
+                System.out.println(i);
         }
     }
 }
